@@ -1,0 +1,39 @@
+.body {
+  background-color: #252525;
+}
+
+.heading {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+.div-block {
+  margin-top: 20%;
+}
+
+.text-block {
+  margin-top: 1%;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    font-size: 15px;
+  }
+
+  .div-block {
+    margin-top: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .text-block {
+    font-size: 35px;
+  }
+}
